@@ -1,13 +1,8 @@
-import { useState } from 'react'
-import './App.css'
-
+import Typography from '@mui/material/Typography';
 function App() {
-
-  return (
-    <>
-      hello React
-    </>
-  )
+  <Typography variant="h1" gutterBottom>
+       Hello React +MUI!
+      </Typography>
 }
 
 export default App
